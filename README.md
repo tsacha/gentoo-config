@@ -2,6 +2,32 @@
 
 See configurations in `portage` directory.
 
+### PORTAGE_TMPDIR on TMPFS
+
+https://wiki.gentoo.org/wiki/Portage_TMPDIR_on_tmpfs
+
+```bash
+# Create TMPFS
+mkdir /var/tmp/portage-tmpfs
+echo 'tmpfs /var/tmp/portage-tmpfs  tmpfs   size=4G,uid=portage,gid=portage,mode=775,noatime    0 0' >> /etc/fstab
+mount /var/tmp/portage-tmpfs
+
+# Set Portage configuration
+
+mkdir /etc/portage/env
+echo 'PORTAGE_TMPDIR="/var/tmp/portage-tmpfs"' >> /etc/portage/make.conf
+echo 'PORTAGE_TMPDIR="/var/tmp/portage"' >> /etc/portage/env/notmpfs.conf
+
+# Disable TMPFS for huge packages
+
+cat >> /etc/portage/package.env << EOF
+app-office/libreoffice notmpfs.conf
+mail-client/thunderbird notmpfs.conf
+www-client/chromium notmpfs.conf
+www-client/firefox notmpfs.conf
+EOF
+```
+
 ### make.conf file
 
 https://wiki.gentoo.org/wiki//etc/portage/make.conf
