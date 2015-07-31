@@ -1,0 +1,14 @@
+sys-kernel/vanilla-sources ~amd64
+sys-fs/btrfs-progs ~amd64
+sys-kernel/genkernel ~amd64
+sys-kernel/dracut ~amd64
+sys-apps/kbd ~amd64
+www-client/firefox ~amd64
+sys-apps/fr-bepo-keymap ~amd64
+games-util/steam-launcher ~amd64
+app-emulation/lxc ~amd64
+sys-process/criu ~amd64
+x11-wm/i3 ~amd64
+net-wireless/broadcom-sta ~amd64
+media-video/mpv ~amd64
+media-libs/libass ~amd64

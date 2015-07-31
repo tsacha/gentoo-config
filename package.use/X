@@ -1,0 +1,19 @@
+x11-libs/cairo xcb X
+x11-libs/libxcb xkb
+x11-libs/pango X
+x11-libs/gtk+ X
+x11-libs/libxkbcommon X
+x11-proto/xextproto abi_x86_32
+x11-libs/libX11 abi_x86_32
+x11-proto/xcb-proto abi_x86_32
+dev-libs/libpthread-stubs abi_x86_32
+x11-libs/libXau abi_x86_32
+x11-proto/xproto abi_x86_32
+x11-proto/inputproto abi_x86_32
+x11-proto/xf86bigfontproto abi_x86_32
+x11-proto/kbproto abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+x11-libs/libxcb abi_x86_32
+media-libs/glu abi_x86_32
+x11-libs/libXinerama abi_x86_32
+x11-proto/xineramaproto abi_x86_32
