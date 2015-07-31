@@ -41,6 +41,19 @@ emerge -ae @world
 emerge --ask --deep --changed-use --update @world
 ```
 
+# layman - gentoo overlays
+
+Install `app-portage/layman` and configure some overlays in `/etc/portage/repos.conf/overlay-name.conf
+
+See some examples in the `portage/repos.conf` directory.
+
+
+### sync overlays
+
+```bash
+layman -S
+```
+
 # Other tools
 
  * `equery`: install `app-portage/gentoolkit`
