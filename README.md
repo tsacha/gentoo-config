@@ -45,6 +45,12 @@ emerge --ask --deep --changed-use --update @world
  * `euse`: install `app-portage/gentoolkit`
  * `eix`: install `app-portage/eix`
 
+## Update eix database
+
+```bash
+eix-update
+```
+
 ## Enable uses for package
 
 ```bash
