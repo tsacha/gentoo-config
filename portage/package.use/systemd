@@ -1,1 +1,1 @@
-sys-apps/systemd abi_x86_32
+sys-apps/systemd abi_x86_32 gudev
