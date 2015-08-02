@@ -12,3 +12,4 @@ x11-wm/i3 ~amd64
 net-wireless/broadcom-sta ~amd64
 media-video/mpv ~amd64
 media-libs/libass ~amd64
+app-misc/watchman ~amd64
