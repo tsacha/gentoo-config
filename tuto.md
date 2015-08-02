@@ -76,6 +76,12 @@ wget http://distfiles.gentoo.org/releases/amd64/autobuilds/current-stage3-amd64/
 tar xpf stage3-amd64-20150730.tar.bz2 -C /var/lib/lxc/94-gentoo/rootfs
 ```
 
+A few steps are required:
+
+1. Choose a mirror from https://www.gentoo.org/downloads/mirrors/
+1. Put that mirror URL in `/etc/portage/make.conf` like this: `GENTOO_MIRRORS="GENTOO_MIRRORS="URL1 URL2 ..."`
+1. Copy resolv.conf: `cat /etc/resolv.conf > /var/lib/lxc/94-gentoo/rootfs/etc/resolv.conf`
+
 Then we can chroot to our new gentoo base system and change the root password:
 
 ```bash
@@ -84,12 +90,7 @@ source /etc/profile
 passwd root
 ```
 
-If you want a simple chroot, here are the instructions (skip for LXC):
-
-1. Choose a mirror from https://www.gentoo.org/downloads/mirrors/
-1. Put that mirror URL in `/etc/portage/make.conf` like this: `GENTOO_MIRRORS="GENTOO_MIRRORS="URL1 URL2 ..."`
-1. Copy resolv.conf: `cat /etc/resolv.conf > /var/lib/lxc/94-gentoo/rootfs/etc/resolv.conf`
-1. Mount-bind filesystems:
+If you want a simple chroot, mount-bind some filesystems:
 
 ```bash
 mount -t proc proc /var/lib/lxc/94-gentoo/rootfs/proc
