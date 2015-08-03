@@ -13,3 +13,4 @@ net-wireless/broadcom-sta ~amd64
 media-video/mpv ~amd64
 media-libs/libass ~amd64
 app-misc/watchman ~amd64
+net-misc/owncloud-client ~amd64
