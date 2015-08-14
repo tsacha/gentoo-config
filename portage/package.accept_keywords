@@ -15,3 +15,7 @@ media-libs/libass ~amd64
 app-misc/watchman ~amd64
 net-misc/owncloud-client ~amd64
 dev-libs/qtkeychain ~amd64
+x11-misc/i3status
+dev-lang/mono ~amd64
+dev-util/monodevelop ~amd64
+dev-dotnet/gtk-sharp ~amd64
