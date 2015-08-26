@@ -19,3 +19,5 @@ x11-misc/i3status
 dev-lang/mono ~amd64
 dev-util/monodevelop ~amd64
 dev-dotnet/gtk-sharp ~amd64
+<media-libs/libpng-1.7 ~amd64
+app-admin/keepassx ~amd64
