@@ -1,1 +1,1 @@
-x11-libs/cairo opengl
+x11-libs/cairo xcb X opengl
