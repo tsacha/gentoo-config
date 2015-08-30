@@ -1,11 +1,13 @@
 app-admin/ansible
 app-admin/keepassx
 app-admin/sudo
+app-admin/sysstat
 app-editors/vim
 app-emulation/lxc
 app-emulation/qemu
 app-emulation/spice
 app-emulation/virt-manager
+app-emulation/wine
 app-misc/tmux
 app-misc/watchman
 app-office/libreoffice-bin
@@ -25,6 +27,7 @@ dev-python/pip
 dev-python/pylint
 dev-python/requests
 dev-python/virtualenv
+dev-util/ccache
 dev-util/strace
 dev-vcs/git
 dev-vcs/subversion
@@ -45,6 +48,7 @@ media-gfx/scrot
 media-libs/glu
 media-libs/libtxc_dxtn
 media-sound/alsa-utils
+media-sound/audacity
 media-sound/pavucontrol
 media-sound/volumeicon
 media-video/mpv
@@ -57,6 +61,7 @@ net-dns/bind-tools
 net-dns/dnsmasq
 net-ftp/filezilla
 net-im/pidgin
+net-im/skype
 net-irc/weechat
 net-libs/librsync
 net-misc/bridge-utils
@@ -72,6 +77,7 @@ sys-apps/fr-bepo-keymap
 sys-apps/haveged
 sys-apps/hdparm
 sys-apps/lm_sensors
+sys-apps/lshw
 sys-boot/grub
 sys-fs/btrfs-progs
 sys-fs/sshfs-fuse
@@ -85,6 +91,7 @@ www-client/chromium
 www-client/firefox
 www-plugins/adobe-flash
 www-plugins/chrome-binary-plugins
+x11-apps/mesa-progs
 x11-apps/setxkbmap
 x11-apps/xbacklight
 x11-apps/xrandr

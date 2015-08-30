@@ -9,6 +9,7 @@ games-util/steam-launcher ~amd64
 media-libs/libass ~amd64
 <media-libs/libpng-1.7 ~amd64
 media-video/mpv ~amd64
+net-im/skype ~amd64
 net-misc/owncloud-client ~amd64
 net-wireless/broadcom-sta ~amd64
 sys-apps/fr-bepo-keymap ~amd64
@@ -21,3 +22,4 @@ sys-process/criu ~amd64
 www-client/firefox ~amd64
 x11-misc/i3status
 x11-wm/i3 ~amd64
+app-emulation/wine ~amd64
