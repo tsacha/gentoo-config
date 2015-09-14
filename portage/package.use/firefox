@@ -1,1 +1,1 @@
-www-client/firefox gstreamer custom-cflags custom-optimization dbus -bindist
+www-client/firefox gstreamer dbus -bindist

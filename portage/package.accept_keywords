@@ -14,12 +14,19 @@ net-misc/owncloud-client ~amd64
 net-wireless/broadcom-sta ~amd64
 sys-apps/fr-bepo-keymap ~amd64
 sys-apps/kbd ~amd64
-sys-fs/btrfs-progs ~amd64
+<=sys-fs/btrfs-progs-4.1.2 ~amd64
 sys-kernel/dracut ~amd64
 sys-kernel/genkernel ~amd64
-sys-kernel/vanilla-sources ~amd64
+<sys-kernel/vanilla-sources-4.2.0 ~amd64
 sys-process/criu ~amd64
 www-client/firefox ~amd64
 x11-misc/i3status
 x11-wm/i3 ~amd64
 app-emulation/wine ~amd64
+app-editors/sublime-text ~amd64
+x11-themes/arc ~amd64
+www-servers/xsp ~amd64
+dev-dotnet/nuget ~amd64
+app-emulation/virtualbox ~amd64
+app-emulation/virtualbox-additions ~amd64
+app-emulation/virtualbox-modules ~amd64
